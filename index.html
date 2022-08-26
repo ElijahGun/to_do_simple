@@ -3,12 +3,33 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Simple To-Do List</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
 </head>
 <body>
+
+    <!--container for page background texture-->
+    <div class="back-texture">
+        <!--div for todo block-->
+        <div class="to-do-block">
+            <section>
+                <h1>To-Do-List!</h1>
+            </section>
+
+            <label>Add To-Do:</label>
+            <form>
+                <input type="text" id="add-todo" name="add-todo" value="Type New To-Do Here" required>
+            </form>
+
+            <!--Display to-dos-->
+            <section>
+                <div><h6>represents a todo!</h6></div>
+            </section>
+        </div>
+
+    </div>
     
+    <script src='script.js'></script>
 </body>
 </html>
