@@ -13,17 +13,23 @@
     <div class="back-texture">
         <!--div for todo block-->
         <div class="to-do-block">
+
             <section>
                 <h1>To-Do-List!</h1>
             </section>
+            <br>
 
-            <label>Add To-Do:</label>
-            <form>
-                <input type="text" id="add-todo" name="add-todo" value="Type New To-Do Here" required>
-            </form>
+            <!--Input new todo-->
+            <div class="new-todo">
+                <label>Add To-Do:</label>
+                <br>
+                <form id="myForm">
+                    <input type="text" id="add-todo" name="add-todo" placeholder="Type New To-Do Here" required>
+                </form>
+            </div>
 
             <!--Display to-dos-->
-            <section>
+            <section class="to-do-list">
                 <div><h6>represents a todo!</h6></div>
             </section>
         </div>

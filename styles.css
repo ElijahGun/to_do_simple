@@ -1,4 +1,42 @@
 
-p {
-    color: blue;
+body {
+    margin: 0;
+    background-color: blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.back-texture {
+    display: flex;
+    background-image: url(./Assets/olga-thelavart-vS3idIiYxX0-unsplash.jpg);
+    margin: 0;
+    height: 100vh;
+}
+
+.to-do-block {
+    background-color: bisque;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.new-todo {
+    text-align: center;
+}
+
+
+.new-todo label {
+    display: inline-block;
+    margin: 1em;
+    text-decoration: underline;
+}
+
+#add-todo {
+    width: 80%;
 }
